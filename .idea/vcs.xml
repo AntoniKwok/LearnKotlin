@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Revisi1 WEB BarBarKos/backend-barbarkos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Revisi1 WEB BarBarKos/frontend-barbarkos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TPA WEB/frontend-barbarkos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WEB" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WEB/backend-barbarkos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WEB/frontend-barbarkos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend-barbarkos" vcs="Git" />
+  </component>
+</project>
