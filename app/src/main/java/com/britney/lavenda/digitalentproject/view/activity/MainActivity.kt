@@ -1,14 +1,13 @@
 package com.britney.lavenda.digitalentproject.view.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.britney.lavenda.digitalentproject.R
 import com.britney.lavenda.digitalentproject.model.Book
 import com.britney.lavenda.digitalentproject.model.BookData
-import com.britney.lavenda.digitalentproject.utils.OnItemClickCallback
 import com.britney.lavenda.digitalentproject.view.adapter.ListBookAdapter
 
 class MainActivity : AppCompatActivity() {
