@@ -47,12 +47,11 @@ class ListBookAdapter(context: Context, private val listBooks: ArrayList<Book>) 
         holder.title.text = title
         holder.writer.text = writer
         holder.price.text = price
-//        holder.itemView.setOnClickListener {
-//            onItemClickCallback.onItemClicked(listBooks[holder.adapterPosition])
-//            val moveIntent = Intent(context, DetailActivity::class.java)
-//            moveIntent.putExtra(DetailActivity.EXTRA_BOOK,)
-//            startActivity(moveIntent)
-//        }
+        holder.itemView.setOnClickListener {
+            onItemClickCallback.onItemClicked(listBooks[holder.adapterPosition])
+            val moveIntent = Intent(context, DetailActivity::class.java)
+            moveIntent.putExtra("BOOK", listBooks[position])
+        }
     }
 
 
